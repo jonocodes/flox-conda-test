@@ -1,0 +1,399 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "conda": {
+        "pkg-path": "python312Packages.conda"
+      },
+      "pip": {
+        "pkg-path": "python312Packages.pip"
+      },
+      "python312": {
+        "pkg-path": "python312"
+      }
+    },
+    "hook": {},
+    "profile": {},
+    "options": {
+      "systems": [
+        "aarch64-darwin",
+        "aarch64-linux",
+        "x86_64-darwin",
+        "x86_64-linux"
+      ],
+      "allow": {
+        "licenses": []
+      },
+      "semver": {}
+    }
+  },
+  "packages": [
+    {
+      "attr_path": "python312Packages.conda",
+      "broken": false,
+      "derivation": "/nix/store/bfzx2ccm3drijibjhdjnchxggl28h3yz-python3.12-conda-25.1.0.drv",
+      "description": "OS-agnostic, system-level binary package manager",
+      "install_id": "conda",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1e5b653dff12029333a6546c11e108ede13052eb",
+      "name": "python3.12-conda-25.1.0",
+      "pname": "conda",
+      "rev": "1e5b653dff12029333a6546c11e108ede13052eb",
+      "rev_count": 772522,
+      "rev_date": "2025-03-22T18:57:23Z",
+      "scrape_date": "2025-03-24T01:13:38.000849Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "25.1.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/fn1m813kl9rqkcfa2ahi9rr67larmlli-python3.12-conda-25.1.0-dist",
+        "out": "/nix/store/pjhmrhl685wzhvw1rk8mjm1n6iw27aa5-python3.12-conda-25.1.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python312Packages.conda",
+      "broken": false,
+      "derivation": "/nix/store/gpvr4shbp877zsz9jjzq3sg19d9pmb6i-python3.12-conda-25.1.0.drv",
+      "description": "OS-agnostic, system-level binary package manager",
+      "install_id": "conda",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1e5b653dff12029333a6546c11e108ede13052eb",
+      "name": "python3.12-conda-25.1.0",
+      "pname": "conda",
+      "rev": "1e5b653dff12029333a6546c11e108ede13052eb",
+      "rev_count": 772522,
+      "rev_date": "2025-03-22T18:57:23Z",
+      "scrape_date": "2025-03-24T01:35:21.751531Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "25.1.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/l9hbd3481vg70795ymyklgnvlsa3g1s3-python3.12-conda-25.1.0-dist",
+        "out": "/nix/store/9c0vv5483dxlyy2gzpgvb44vda9xrfxr-python3.12-conda-25.1.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python312Packages.conda",
+      "broken": false,
+      "derivation": "/nix/store/dbd2dbq45743glfyjni7hvqcx6n19ldz-python3.12-conda-25.1.0.drv",
+      "description": "OS-agnostic, system-level binary package manager",
+      "install_id": "conda",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1e5b653dff12029333a6546c11e108ede13052eb",
+      "name": "python3.12-conda-25.1.0",
+      "pname": "conda",
+      "rev": "1e5b653dff12029333a6546c11e108ede13052eb",
+      "rev_count": 772522,
+      "rev_date": "2025-03-22T18:57:23Z",
+      "scrape_date": "2025-03-24T01:54:21.827464Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "25.1.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/lb0j5zyipyxw8cgn10hn8jnhfkv005xx-python3.12-conda-25.1.0-dist",
+        "out": "/nix/store/8v0j78pkrizmvsfg1q1gzqlr407la61r-python3.12-conda-25.1.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python312Packages.conda",
+      "broken": false,
+      "derivation": "/nix/store/5cz4pgsjqi9a2jvwl57w2sm6ds03ir93-python3.12-conda-25.1.0.drv",
+      "description": "OS-agnostic, system-level binary package manager",
+      "install_id": "conda",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1e5b653dff12029333a6546c11e108ede13052eb",
+      "name": "python3.12-conda-25.1.0",
+      "pname": "conda",
+      "rev": "1e5b653dff12029333a6546c11e108ede13052eb",
+      "rev_count": 772522,
+      "rev_date": "2025-03-22T18:57:23Z",
+      "scrape_date": "2025-03-24T02:17:14.004885Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "25.1.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/dykzr7zj2x414y1yydnmjlriab0w8a7y-python3.12-conda-25.1.0-dist",
+        "out": "/nix/store/01p0ilbi2y71g510084ikps7lq75n6n5-python3.12-conda-25.1.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python312Packages.pip",
+      "broken": false,
+      "derivation": "/nix/store/2ixfqmr6n0jp0ji7132cahx4hk3kprrr-python3.12-pip-25.0.1.drv",
+      "description": "PyPA recommended tool for installing Python packages",
+      "install_id": "pip",
+      "license": "[ MIT ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1e5b653dff12029333a6546c11e108ede13052eb",
+      "name": "python3.12-pip-25.0.1",
+      "pname": "pip",
+      "rev": "1e5b653dff12029333a6546c11e108ede13052eb",
+      "rev_count": 772522,
+      "rev_date": "2025-03-22T18:57:23Z",
+      "scrape_date": "2025-03-24T01:13:41.171006Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "25.0.1",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/m4c3wmy7ls7f2023jwzjzlwbc8jn4l0p-python3.12-pip-25.0.1-dist",
+        "man": "/nix/store/cb5fijd1xhbly1hgqi0yhxhbb2isbnmy-python3.12-pip-25.0.1-man",
+        "out": "/nix/store/0cyzisjbp0bxwdw55b8nl19jk4g2ryil-python3.12-pip-25.0.1"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python312Packages.pip",
+      "broken": false,
+      "derivation": "/nix/store/vj5md45g56fph99zgd66xmrnpq24jzb6-python3.12-pip-25.0.1.drv",
+      "description": "PyPA recommended tool for installing Python packages",
+      "install_id": "pip",
+      "license": "[ MIT ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1e5b653dff12029333a6546c11e108ede13052eb",
+      "name": "python3.12-pip-25.0.1",
+      "pname": "pip",
+      "rev": "1e5b653dff12029333a6546c11e108ede13052eb",
+      "rev_count": 772522,
+      "rev_date": "2025-03-22T18:57:23Z",
+      "scrape_date": "2025-03-24T01:35:26.684489Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "25.0.1",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/pzi38jap0mfjh17z5h8kamiw7yl80r38-python3.12-pip-25.0.1-dist",
+        "man": "/nix/store/kn7fzrhjn0cq4041yjygih3br1ryxkj0-python3.12-pip-25.0.1-man",
+        "out": "/nix/store/kzbc2c0mi739xn67v6bw7996diwz3gxj-python3.12-pip-25.0.1"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python312Packages.pip",
+      "broken": false,
+      "derivation": "/nix/store/4dw25g5x63msibzascb9x15lc8dliwvl-python3.12-pip-25.0.1.drv",
+      "description": "PyPA recommended tool for installing Python packages",
+      "install_id": "pip",
+      "license": "[ MIT ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1e5b653dff12029333a6546c11e108ede13052eb",
+      "name": "python3.12-pip-25.0.1",
+      "pname": "pip",
+      "rev": "1e5b653dff12029333a6546c11e108ede13052eb",
+      "rev_count": 772522,
+      "rev_date": "2025-03-22T18:57:23Z",
+      "scrape_date": "2025-03-24T01:54:24.936226Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "25.0.1",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/3nirc736dh8p8kn1r0lr2pwvkcv0mnn0-python3.12-pip-25.0.1-dist",
+        "man": "/nix/store/0gb727pfpchr3cml4qkpab7nhfga1ipr-python3.12-pip-25.0.1-man",
+        "out": "/nix/store/2zamcamk21mwhdpxizvln579vrkjfb11-python3.12-pip-25.0.1"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python312Packages.pip",
+      "broken": false,
+      "derivation": "/nix/store/v20yxi8wralra40q4vyryj3r60m9i7lj-python3.12-pip-25.0.1.drv",
+      "description": "PyPA recommended tool for installing Python packages",
+      "install_id": "pip",
+      "license": "[ MIT ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1e5b653dff12029333a6546c11e108ede13052eb",
+      "name": "python3.12-pip-25.0.1",
+      "pname": "pip",
+      "rev": "1e5b653dff12029333a6546c11e108ede13052eb",
+      "rev_count": 772522,
+      "rev_date": "2025-03-22T18:57:23Z",
+      "scrape_date": "2025-03-24T02:17:19.255220Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "25.0.1",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/jimva08akkqx0664d5wv9vpp77gmfd21-python3.12-pip-25.0.1-dist",
+        "man": "/nix/store/ki6m2w4b4jk1iz9pz0vb8v7x0p60p84l-python3.12-pip-25.0.1-man",
+        "out": "/nix/store/n4k89cdabvy17hw583d5h150q6sm3brd-python3.12-pip-25.0.1"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python312",
+      "broken": false,
+      "derivation": "/nix/store/cb1gsjqlf1dzry390xrsl6ghpaqmsaxd-python3-3.12.9.drv",
+      "description": "High-level dynamically-typed programming language",
+      "install_id": "python312",
+      "license": "Python-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1e5b653dff12029333a6546c11e108ede13052eb",
+      "name": "python3-3.12.9",
+      "pname": "python312",
+      "rev": "1e5b653dff12029333a6546c11e108ede13052eb",
+      "rev_count": 772522,
+      "rev_date": "2025-03-22T18:57:23Z",
+      "scrape_date": "2025-03-24T01:13:37.075790Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "python3-3.12.9",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/3p3agnh4792y8bgjp0s8xx5bym1ahpks-python3-3.12.9"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python312",
+      "broken": false,
+      "derivation": "/nix/store/cvm8irmg5j24v0iqk8w6z254jcl9vjzd-python3-3.12.9.drv",
+      "description": "High-level dynamically-typed programming language",
+      "install_id": "python312",
+      "license": "Python-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1e5b653dff12029333a6546c11e108ede13052eb",
+      "name": "python3-3.12.9",
+      "pname": "python312",
+      "rev": "1e5b653dff12029333a6546c11e108ede13052eb",
+      "rev_count": 772522,
+      "rev_date": "2025-03-22T18:57:23Z",
+      "scrape_date": "2025-03-24T01:35:20.267129Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "python3-3.12.9",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/p2ym34g9y2w9k3w2pgbj2akn7b5l6xlh-python3-3.12.9-debug",
+        "out": "/nix/store/cxhrrsf7spcgdkrxmlbfzc1bh46rzf7w-python3-3.12.9"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python312",
+      "broken": false,
+      "derivation": "/nix/store/xzh86qk42dj8pqq3v9qay3ckvb97hyi3-python3-3.12.9.drv",
+      "description": "High-level dynamically-typed programming language",
+      "install_id": "python312",
+      "license": "Python-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1e5b653dff12029333a6546c11e108ede13052eb",
+      "name": "python3-3.12.9",
+      "pname": "python312",
+      "rev": "1e5b653dff12029333a6546c11e108ede13052eb",
+      "rev_count": 772522,
+      "rev_date": "2025-03-22T18:57:23Z",
+      "scrape_date": "2025-03-24T01:54:20.916462Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "python3-3.12.9",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/8fw6a4is5mkpmr9vd80inz63qdi130m3-python3-3.12.9"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python312",
+      "broken": false,
+      "derivation": "/nix/store/0mg12776wbbfzw2fdslyhir14cw1cgfj-python3-3.12.9.drv",
+      "description": "High-level dynamically-typed programming language",
+      "install_id": "python312",
+      "license": "Python-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1e5b653dff12029333a6546c11e108ede13052eb",
+      "name": "python3-3.12.9",
+      "pname": "python312",
+      "rev": "1e5b653dff12029333a6546c11e108ede13052eb",
+      "rev_count": 772522,
+      "rev_date": "2025-03-22T18:57:23Z",
+      "scrape_date": "2025-03-24T02:17:12.421725Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "python3-3.12.9",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/1kjknndig10774mkf6b2b95kn17q4rm5-python3-3.12.9-debug",
+        "out": "/nix/store/f2krmq3iv5nibcvn4rw7nrnrciqprdkh-python3-3.12.9"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
