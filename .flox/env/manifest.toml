@@ -2,9 +2,17 @@
 version = 1
 
 [install]
-python312.pkg-path = "python312"
-conda.pkg-path = "python312Packages.conda"
-pip.pkg-path = "python312Packages.pip"
+#python3.pkg-path = "python312" # python is now installed via conda
+#conda.pkg-path = "python312Packages.conda"
+#pip.pkg-path = "python312Packages.pip"
+conda.pkg-path = "conda"
+conda.systems = ["aarch64-linux", "x86_64-linux"]
+go.pkg-path = "go"
+gcc.pkg-path = "gcc"
+gnumake.pkg-path = "gnumake"
+#pip.pkg-path = "python312Packages.pip"
+binutils.pkg-path = "binutils"
+zlib.pkg-path = "zlib"
 
 [vars]
 

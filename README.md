@@ -1,82 +1,52 @@
+# Trying to get my python setup to work...
 
-# Trying to get flox/conda to work
+- flox
+- conda
+- python 3.12
+- pip
+- pdm
+- fish shell
 
-My system may be in a weird state, but I think this should be a way to reproduce the errors.
+Almost working. It just needs to be in nested shells to work.
+
+Perhaps I need to import the FHS from conda directly into the flox environment somehow.
 
 My current setup:
-* flox 1.3.14
-* python 3.12
-* python312Packages.conda
+
+- flox 1.3.14
+- python 3.12
+- nixpkgs.conda
 
 My previous setup where conda was working:
-* flox 1.3.10
-* python 3.11
-* nixpkgs.conda
+
+- flox 1.3.10
+- python 3.11
+- nixpkgs.conda
 
 ## Steps to reproduce
 
-    > flox activate
+> flox activate
 
-    > bash  # since I'm using fish and conda wont work in fish for not
+> conda-shell -c fish
 
-    > conda init  # this enables conda in your shell init
+> conda init # this enables conda in your shell init. first time setting up conda only
 
-    > exit  # need to restart shell for init's work to take place
+> exit # need to restart shell for init's work to take place
 
-    > bash
+> conda-shell -c fish
 
-    > python -V
-    Python 3.12.9
+> eval /home/jono/.conda/bin/conda "shell.fish" "hook" $argv | source
 
-    > conda info
+> conda create -n test1
 
-    > conda create -n test1
+> conda activate test1
 
-    > conda activate test1
+> conda env update -f conda_environment.yml
 
-    > python -V
+> pip install pdm # since pdm managed by python seems more agreeable then when installed by nix/flox
 
-    Could not start dynamically linked executable: python
-    NixOS cannot run dynamically linked executables intended for generic
-    linux environments out of the box. For more information, see:
-    https://nix.dev/permalink/stub-ld
-    (test1) 
+> pdm install
 
-    > conda env update -f conda_environment.yml 
-    Channels:
-    - conda-forge
-    - defaults
-    Platform: linux-64
-    Collecting package metadata (repodata.json): done
-    Solving environment: done
-
-    Downloading and Extracting Packages:
-
-    Preparing transaction: done
-    Verifying transaction: done
-    Executing transaction: done
-    Installing pip dependencies: - Ran pip subprocess with arguments:
-    ['/home/jono/.conda/envs/test1/bin/python', '-m', 'pip', 'install', '-U', '-r', '/home/jono/src/flox-conda-test/condaenv.f66l8dcm.requirements.txt', '--exists-action=b']
-    Pip subprocess output:
-
-    Pip subprocess error:
-    /nix/store/f2krmq3iv5nibcvn4rw7nrnrciqprdkh-python3-3.12.9/bin/python3.12: can't open file '/home/jono/src/flox-conda-test/shell.posix': [Errno 2] No such file or directory
-
-    CondaError: Conda has not been initialized.
-
-    To enable full conda functionality, please run 'conda init'.
-    For additional information, see 'conda init --help'.
-
-
-    Could not start dynamically linked executable: /home/jono/.conda/envs/test1/bin/python
-    NixOS cannot run dynamically linked executables intended for generic
-    linux environments out of the box. For more information, see:
-    https://nix.dev/permalink/stub-ld
-
-    failed
-
-    CondaEnvException: Pip failed
-
-    (test1) 
-
-
+> ./try.py
+> 3.0
+> It worked......
