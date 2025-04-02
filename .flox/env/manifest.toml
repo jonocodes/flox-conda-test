@@ -7,12 +7,14 @@ version = 1
 #pip.pkg-path = "python312Packages.pip"
 conda.pkg-path = "conda"
 conda.systems = ["aarch64-linux", "x86_64-linux"]
-go.pkg-path = "go"
 gcc.pkg-path = "gcc"
 gnumake.pkg-path = "gnumake"
+go.pkg-path = "go"
 #pip.pkg-path = "python312Packages.pip"
 binutils.pkg-path = "binutils"
 zlib.pkg-path = "zlib"
+
+fhs.flake = "path:./flakes/fhs"
 
 [vars]
 
@@ -26,8 +28,7 @@ zlib.pkg-path = "zlib"
 [options]
 
 systems = [
-  "aarch64-darwin",
-  "aarch64-linux",
-  "x86_64-darwin",
+  #  "aarch64-darwin",
+  "aarch64-linux", #  "x86_64-darwin",
   "x86_64-linux",
 ]

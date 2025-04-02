@@ -30,9 +30,7 @@
     "profile": {},
     "options": {
       "systems": [
-        "aarch64-darwin",
         "aarch64-linux",
-        "x86_64-darwin",
         "x86_64-linux"
       ],
       "allow": {
@@ -42,40 +40,6 @@
     }
   },
   "packages": [
-    {
-      "attr_path": "binutils",
-      "broken": false,
-      "derivation": "/nix/store/4sa0zs2jjqjb34ldv8w4zzzm20xh79ls-binutils-wrapper-2.43.1.drv",
-      "description": "Tools for manipulating binaries (linker, assembler, etc.) (wrapper script)",
-      "install_id": "binutils",
-      "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "name": "binutils-wrapper-2.43.1",
-      "pname": "binutils",
-      "rev": "d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "rev_count": 724962,
-      "rev_date": "2024-12-19T23:01:11Z",
-      "scrape_date": "2024-12-23T03:54:12Z",
-      "stabilities": [
-        "stable",
-        "staging",
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "2.43.1",
-      "outputs_to_install": [
-        "man",
-        "out"
-      ],
-      "outputs": {
-        "info": "/nix/store/zx6nzdca4mfv5ghq15rzzhkd2dvhhnb5-binutils-wrapper-2.43.1-info",
-        "man": "/nix/store/1wqxsgp2j65qv2vncrd5m7p8q3xavw5s-binutils-wrapper-2.43.1-man",
-        "out": "/nix/store/gap4zjjs6azr3a8j6bfi589yczhyy7d6-binutils-wrapper-2.43.1"
-      },
-      "system": "aarch64-darwin",
-      "group": "toplevel",
-      "priority": 5
-    },
     {
       "attr_path": "binutils",
       "broken": false,
@@ -107,40 +71,6 @@
         "out": "/nix/store/8hcwpiazwyh2kn29az830pvlfdvyxs2k-binutils-wrapper-2.43.1"
       },
       "system": "aarch64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "binutils",
-      "broken": false,
-      "derivation": "/nix/store/rwm8vpf643j8cl4xjymchgw714xpmp0n-binutils-wrapper-2.43.1.drv",
-      "description": "Tools for manipulating binaries (linker, assembler, etc.) (wrapper script)",
-      "install_id": "binutils",
-      "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "name": "binutils-wrapper-2.43.1",
-      "pname": "binutils",
-      "rev": "d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "rev_count": 724962,
-      "rev_date": "2024-12-19T23:01:11Z",
-      "scrape_date": "2024-12-23T03:54:12Z",
-      "stabilities": [
-        "stable",
-        "staging",
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "2.43.1",
-      "outputs_to_install": [
-        "man",
-        "out"
-      ],
-      "outputs": {
-        "info": "/nix/store/0mpv94nj0c236qx6ar195a394hdc91h1-binutils-wrapper-2.43.1-info",
-        "man": "/nix/store/093plyclxvwbpdga34l3pzx8jmwlcw8k-binutils-wrapper-2.43.1-man",
-        "out": "/nix/store/n303i151wa7c6dsg9aj8s1cxcqw1dmwz-binutils-wrapper-2.43.1"
-      },
-      "system": "x86_64-darwin",
       "group": "toplevel",
       "priority": 5
     },
@@ -243,40 +173,6 @@
     {
       "attr_path": "gcc",
       "broken": false,
-      "derivation": "/nix/store/v2xwrq6hzb9560iaxansf6m5bvr0gdhh-gcc-wrapper-13.3.0.drv",
-      "description": "GNU Compiler Collection, version 13.3.0 (wrapper script)",
-      "install_id": "gcc",
-      "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "name": "gcc-wrapper-13.3.0",
-      "pname": "gcc",
-      "rev": "d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "rev_count": 724962,
-      "rev_date": "2024-12-19T23:01:11Z",
-      "scrape_date": "2024-12-23T03:54:12Z",
-      "stabilities": [
-        "stable",
-        "staging",
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "13.3.0",
-      "outputs_to_install": [
-        "man",
-        "out"
-      ],
-      "outputs": {
-        "info": "/nix/store/95lwddr3xhz110pyjkg9i7zczbi32bjb-gcc-wrapper-13.3.0-info",
-        "man": "/nix/store/ncrvhf5cml7cpi34ah1fvpablyk9j3jf-gcc-wrapper-13.3.0-man",
-        "out": "/nix/store/3hq83bgy41m9xpifm3hknjf96v75sg33-gcc-wrapper-13.3.0"
-      },
-      "system": "aarch64-darwin",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "gcc",
-      "broken": false,
       "derivation": "/nix/store/pjxj3pzbb3ypr9lhl6xfrfb9daanhzg2-gcc-wrapper-13.3.0.drv",
       "description": "GNU Compiler Collection, version 13.3.0 (wrapper script)",
       "install_id": "gcc",
@@ -311,40 +207,6 @@
     {
       "attr_path": "gcc",
       "broken": false,
-      "derivation": "/nix/store/fj3f8n3jhxy0gh913dk1gkxakx1cnw8l-gcc-wrapper-13.3.0.drv",
-      "description": "GNU Compiler Collection, version 13.3.0 (wrapper script)",
-      "install_id": "gcc",
-      "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "name": "gcc-wrapper-13.3.0",
-      "pname": "gcc",
-      "rev": "d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "rev_count": 724962,
-      "rev_date": "2024-12-19T23:01:11Z",
-      "scrape_date": "2024-12-23T03:54:12Z",
-      "stabilities": [
-        "stable",
-        "staging",
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "13.3.0",
-      "outputs_to_install": [
-        "man",
-        "out"
-      ],
-      "outputs": {
-        "info": "/nix/store/9msszmhia74i4x5bcz8w5pnqnyj0r563-gcc-wrapper-13.3.0-info",
-        "man": "/nix/store/156gcfrrmschaslcc4vbblmg86wcv1wb-gcc-wrapper-13.3.0-man",
-        "out": "/nix/store/hjrymxy8p9fkcqzdi4qd6qcvy9fdkcn1-gcc-wrapper-13.3.0"
-      },
-      "system": "x86_64-darwin",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "gcc",
-      "broken": false,
       "derivation": "/nix/store/zrp1z93l9cj9ia4n6s9cfs0f3s37r8v1-gcc-wrapper-13.3.0.drv",
       "description": "GNU Compiler Collection, version 13.3.0 (wrapper script)",
       "install_id": "gcc",
@@ -373,40 +235,6 @@
         "out": "/nix/store/4apajimszc47rxwcpvc3g3rj2icinl71-gcc-wrapper-13.3.0"
       },
       "system": "x86_64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "gnumake",
-      "broken": false,
-      "derivation": "/nix/store/5933wy8pj32l194jvv8cvxzifn62i09z-gnumake-4.4.1.drv",
-      "description": "Tool to control the generation of non-source files from sources",
-      "install_id": "gnumake",
-      "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "name": "gnumake-4.4.1",
-      "pname": "gnumake",
-      "rev": "d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "rev_count": 724962,
-      "rev_date": "2024-12-19T23:01:11Z",
-      "scrape_date": "2024-12-23T03:54:12Z",
-      "stabilities": [
-        "stable",
-        "staging",
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "4.4.1",
-      "outputs_to_install": [
-        "man",
-        "out"
-      ],
-      "outputs": {
-        "info": "/nix/store/1q1mx4697p2366yf45mhrsxm415gmvh8-gnumake-4.4.1-info",
-        "man": "/nix/store/xf2ipc0w3wr5ymqai8dm940sw3a7xk69-gnumake-4.4.1-man",
-        "out": "/nix/store/j2mshll8lvgc21dbmjyfcvlj98z4pl2f-gnumake-4.4.1"
-      },
-      "system": "aarch64-darwin",
       "group": "toplevel",
       "priority": 5
     },
@@ -448,40 +276,6 @@
     {
       "attr_path": "gnumake",
       "broken": false,
-      "derivation": "/nix/store/gg8pyljfcabyj05jqrs19xjj1g1vk2k7-gnumake-4.4.1.drv",
-      "description": "Tool to control the generation of non-source files from sources",
-      "install_id": "gnumake",
-      "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "name": "gnumake-4.4.1",
-      "pname": "gnumake",
-      "rev": "d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "rev_count": 724962,
-      "rev_date": "2024-12-19T23:01:11Z",
-      "scrape_date": "2024-12-23T03:54:12Z",
-      "stabilities": [
-        "stable",
-        "staging",
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "4.4.1",
-      "outputs_to_install": [
-        "man",
-        "out"
-      ],
-      "outputs": {
-        "info": "/nix/store/rxrkjmfi95mzymfclx1szm61p3pygd6k-gnumake-4.4.1-info",
-        "man": "/nix/store/2n5zqv14340b1d71gcvxg22kk6wgm09m-gnumake-4.4.1-man",
-        "out": "/nix/store/rhra8sm6f4mlxg2p9qwr7cig1zlfwhgq-gnumake-4.4.1"
-      },
-      "system": "x86_64-darwin",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "gnumake",
-      "broken": false,
       "derivation": "/nix/store/i6s1270y2qqzbxcqi2pqxk4rlp3d7ld0-gnumake-4.4.1.drv",
       "description": "Tool to control the generation of non-source files from sources",
       "install_id": "gnumake",
@@ -511,37 +305,6 @@
         "out": "/nix/store/zmdi3226094qc355n9ffhp5an9shpp2d-gnumake-4.4.1"
       },
       "system": "x86_64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "go",
-      "broken": false,
-      "derivation": "/nix/store/56rv2z6sv5b1vzica5xpszjqvd21gqr7-go-1.23.3.drv",
-      "description": "Go Programming language",
-      "install_id": "go",
-      "license": "BSD-3-Clause",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "name": "go-1.23.3",
-      "pname": "go",
-      "rev": "d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "rev_count": 724962,
-      "rev_date": "2024-12-19T23:01:11Z",
-      "scrape_date": "2024-12-23T03:54:12Z",
-      "stabilities": [
-        "stable",
-        "staging",
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "1.23.3",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "out": "/nix/store/w5cxqj1wmbl3wp6arpyl90g66hjs0823-go-1.23.3"
-      },
-      "system": "aarch64-darwin",
       "group": "toplevel",
       "priority": 5
     },
@@ -579,37 +342,6 @@
     {
       "attr_path": "go",
       "broken": false,
-      "derivation": "/nix/store/bg18qs459wx00nfwwapdxq5xvvv4sdyh-go-1.23.3.drv",
-      "description": "Go Programming language",
-      "install_id": "go",
-      "license": "BSD-3-Clause",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "name": "go-1.23.3",
-      "pname": "go",
-      "rev": "d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "rev_count": 724962,
-      "rev_date": "2024-12-19T23:01:11Z",
-      "scrape_date": "2024-12-23T03:54:12Z",
-      "stabilities": [
-        "stable",
-        "staging",
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "1.23.3",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "out": "/nix/store/alkrwr7w62qp3160q0azcvnyn0184hw3-go-1.23.3"
-      },
-      "system": "x86_64-darwin",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "go",
-      "broken": false,
       "derivation": "/nix/store/k427v9wgcg9ify27mcqxrkpw5fd16xmg-go-1.23.3.drv",
       "description": "Go Programming language",
       "install_id": "go",
@@ -635,39 +367,6 @@
         "out": "/nix/store/zhq8dnjbhwspzdglyq28j74axvqyk86q-go-1.23.3"
       },
       "system": "x86_64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "zlib",
-      "broken": false,
-      "derivation": "/nix/store/a5xdl9rcbidhkihs15ax20q8gjzswgm0-zlib-1.3.1.drv",
-      "description": "Lossless data-compression library",
-      "install_id": "zlib",
-      "license": "Zlib",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "name": "zlib-1.3.1",
-      "pname": "zlib",
-      "rev": "d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "rev_count": 724962,
-      "rev_date": "2024-12-19T23:01:11Z",
-      "scrape_date": "2024-12-23T03:54:12Z",
-      "stabilities": [
-        "stable",
-        "staging",
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "1.3.1",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "dev": "/nix/store/qif6i0ikhr4xxzk7m1632b9lzaaj6w7m-zlib-1.3.1-dev",
-        "out": "/nix/store/10r87kpkn4zrj0d1qhq8nfr8g2gf0imp-zlib-1.3.1",
-        "static": "/nix/store/8s0amg4gm0jfgkpcnihkjmwp67ppj5ps-zlib-1.3.1-static"
-      },
-      "system": "aarch64-darwin",
       "group": "toplevel",
       "priority": 5
     },
@@ -701,39 +400,6 @@
         "static": "/nix/store/iqm8bdfhn8c1jwa4pjrvf17rvp23bk4n-zlib-1.3.1-static"
       },
       "system": "aarch64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "zlib",
-      "broken": false,
-      "derivation": "/nix/store/9x8cldgqy36q0vc00k6526lj9mnw2hpq-zlib-1.3.1.drv",
-      "description": "Lossless data-compression library",
-      "install_id": "zlib",
-      "license": "Zlib",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "name": "zlib-1.3.1",
-      "pname": "zlib",
-      "rev": "d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "rev_count": 724962,
-      "rev_date": "2024-12-19T23:01:11Z",
-      "scrape_date": "2024-12-23T03:54:12Z",
-      "stabilities": [
-        "stable",
-        "staging",
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "1.3.1",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "dev": "/nix/store/9z76vcdxp46mc99m8lpdj1dglhi7h4rg-zlib-1.3.1-dev",
-        "out": "/nix/store/m1ycgljx741xjscr110pl022qb181gzd-zlib-1.3.1",
-        "static": "/nix/store/nvg45zb8fbrfwwj8dnbi9p7cx8db3904-zlib-1.3.1-static"
-      },
-      "system": "x86_64-darwin",
       "group": "toplevel",
       "priority": 5
     },
